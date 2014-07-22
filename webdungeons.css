@@ -1,0 +1,30 @@
+/* ==|== webdungeons styles =====================================================
+   Author: Markus J Doetsch
+   ========================================================================== */
+  
+#layer0, #layer1, #layer2, #layer3 {font:11px/12px Helvetica, Verdana, Arial, sans-serif;}
+
+#layer0 {z-index:1000} /* background graphics */
+#layer1 {z-index:2000} /* characters & entities */
+#layer2 {z-index:3000} /* effects */
+#layer3 {z-index:4000} /* UI */
+
+
+/* Character & Entities */
+
+#character {width:20px; height:20px; background:url('WebdungeonsSprite.png') left top no-repeat; position:absolute;}
+
+.entity     {position:absolute; width:20px; height:20px; background:url('WebdungeonsSprite.png') no-repeat;}
+.violet     {background-position: -20px top;}
+.pink       {background-position: -40px top;}
+.tree       {background-position: -60px top;}
+.diamond    {background-position: -80px top;}
+.monster    {background-position: -100px top;}
+.flower     {background-position: -120px top;}
+.star       {background-position: left -20px;}
+
+
+/* UI */
+
+.ui {}
+#stats {width:100px; position:absolute; min-height:1px; border:1px solid #999999;}
